@@ -1,0 +1,23 @@
+# ROS build artifacts
+build/
+devel/
+install/
+log/
+.catkin_workspace
+
+# C++ / CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.o
+*.so
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDEs / Editor
+.vscode/
+.idea/
