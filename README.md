@@ -20,7 +20,7 @@ ros2 run my_robot_controller driver
 
 Running ROS2-Gazebo Bridge (Parameter Bridge) for laser scan of LIDAR:
 
-ros2 run ros_gz_bridge parameter_bridge /scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan
+ros2 run ros_gz_bridge parameter_bridge /scan@sensor_msgs/msg/LaserScan<!-- -->@gz.msgs.LaserScan
 
 Echo of lidar output (/scan):
 
