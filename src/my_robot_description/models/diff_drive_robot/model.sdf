@@ -159,7 +159,7 @@
     </plugin>
 
 <link name="lidar_link">
-      <pose>0 0 0.17 0 0 0</pose> 
+      <pose>0 0 0.25 0 0 0</pose> 
       <visual name="lidar_visual">
         <geometry>
           <cylinder>
@@ -195,11 +195,13 @@
       </inertial>
 
       <sensor name="lidar_sensor" type="gpu_lidar">
+        <pose>0 0 0.03 0 0 0</pose> 
         <always_on>true</always_on>
         <visualize>true</visualize>
-        <update_rate>1</update_rate>
+        <update_rate>10</update_rate>
         <topic>/scan</topic>
-        <ray>
+        <frame_id>lidar_link</frame_id> 
+        <lidar>
           <scan>
             <horizontal>
               <samples>360</samples>
@@ -218,7 +220,7 @@
             <mean>0.0</mean>
             <stddev>0.01</stddev>
           </noise>
-        </ray>
+        </lidar>
       </sensor>
     </link>
 

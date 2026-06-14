@@ -21,7 +21,7 @@ def generate_launch_description():
             os.path.join(get_package_share_directory('ros_gz_sim'), 'launch', 'gz_sim.launch.py')
         ),
         # ---> CHANGED: Load your custom world instead of 'empty.sdf' <---
-        launch_arguments={'gz_args': f'-r {world_file}'}.items()
+        launch_arguments={'gz_args': f' -v 4 -r {world_file}'}.items()
     )
 
     # 4. Create a node to spawn our robot into the Gazebo world

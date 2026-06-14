@@ -28,5 +28,5 @@ ros2 topic echo /scan
 
 Visualizing the laser output:
 
-rviz2
+Gazebo simulation -> search -> visualize LIDAR -> refresh topic -> /scan
 
