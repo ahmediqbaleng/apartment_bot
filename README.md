@@ -30,3 +30,9 @@ Visualizing the laser output:
 
 Gazebo simulation -> search -> visualize LIDAR -> refresh topic -> /scan
 
+
+LIDAR Visualization:
+
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/909ed635-008f-487e-b548-ad8add49cb2a" />
+
+
